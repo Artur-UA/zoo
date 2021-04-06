@@ -1,0 +1,40 @@
+body{
+    max-width: 1920px;
+    max-height: 1080px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    padding: 0;
+}
+.error-page{
+    margin: 0 auto;
+}
+.pictures{
+    padding-top: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    padding-top: 35px;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+.back-home{
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #59C3FB;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+.back-home:hover{
+    color: green;
+}
