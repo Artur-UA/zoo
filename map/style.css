@@ -1,0 +1,266 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active {
+    outline: none;
+}
+a:focus,a:active {
+    outline: none;
+}
+
+nav,footer,header,aside {
+    display: block;
+}
+
+html,body{
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+    font-style: normal;
+	font-weight: normal;
+    font-family: 'Open Sans';
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: Roboto;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,button,textarea {
+    font-family:inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding:0;border:0;
+}
+a, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:inherit;font-weight: 400;
+}
+
+.header{
+	max-width: 1920px;
+    display: flex;
+	flex-wrap: wrap;
+	padding-top: 12px;
+    padding-left: 380px;
+	position: fixed;
+}
+.header__logo__img{
+	margin-right: 57px;
+}
+.header_list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.header__link{
+    margin-right: 35px;
+	font-size: 23px;
+	line-height: 60px;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #000000;
+}
+.header__link__sign{
+	text-shadow: 1px 1px 3px  #70CB0E;
+}
+
+.map{
+    background-color: #A7E1FF;
+    height: 795px;
+    z-index: -1;
+}
+.map-img{
+    padding-top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* .animal{
+
+} */
+.animals{
+	display: flex;	
+	align-items:center;
+} 
+.eagle{
+	position: absolute;
+	top: 430px;
+	left: 480px;
+}
+.eagle-p{
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.alligator{
+	position: absolute;
+	top: 430px;
+	left: 730px;
+} 
+.alligator-p{
+	width: 102px;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	background-color: #70CB0E;
+
+}
+.alligator-pic{
+	padding-right: 9px;
+	background: url(./img/Vector\ 3.svg) no-repeat right;
+
+}
+.aligator-p-1{
+	text-transform: uppercase;
+}
+.gorilla{
+	position: absolute;
+	top: 530px;
+	left: 1020px;
+}
+.gorilla-p{
+	padding-left: 8px;
+}
+.panda{
+	position: absolute;
+	top: 440px;
+	left: 1250px;
+}
+.panda-p{
+	width: 53px;
+	padding-left: 8px;
+}
+.counrty-3{
+	position: absolute;
+	top: 440px;
+	left: 1180px;
+}
+.counrty-1{
+	position: absolute;
+	top: 555px;
+	left: 902px;
+	width: 61px;
+	text-align: center;
+}
+.counrty-2{
+	position: absolute;
+	top: 435px;
+	left: 640px;
+}
+
+.footer{
+	height: 278px;
+	background: #DFF5B0;
+}
+.footer-wrapper{
+	width: 1160px;
+	margin: 0 auto;
+}
+.first-level{
+	padding-top: 80px;
+	display: flex;
+	align-items: center;
+}
+.footer__logo__img{
+	padding-right: 100px;
+    z-index: 2;
+}
+.footer-button{
+	padding: 15px 28px;
+	background: #70CB0E;
+	border-radius: 30px;
+}
+.footer-nav{
+	padding-left: 162px;
+	/* display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 121px;
+	grid-template-rows: 15px; */
+	display: flex;
+
+}
+.footer-column-1{
+	padding-right: 121px;
+}
+/* .footer-column-2{
+} */
+/*.footer-list{
+	
+} */
+.social-list{
+	display: flex;
+	padding-left: 123px;
+}
+.footer-list-id{
+	color: #000000;
+	font-size: 18px;
+	line-height: 21px;
+    
+}
+.social-list-img{
+	padding-right: 10px;
+}
+.second-level{
+	padding-top: 70px;
+	display: flex;
+	padding-bottom: 20px;
+}
+.footer__rss__img{
+	padding-right: 57px;
+}
+.footer__yem__img{
+	padding-right: 77px;
+}
+.footer-text {
+	padding-top: 27px;
+	padding-right: 213px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.designer{
+	padding-top: 27px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.footer-bg{
+	position: absolute;
+	top: 720px;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	background: url(../img/footer.svg) no-repeat;
+	/* z-index: 1; */
+}
