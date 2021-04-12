@@ -125,7 +125,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-
+.how-it{
+	overflow:hidden;
+}
 .how-it-works{
 	padding-top: 100px;
 	text-align: center;
@@ -197,6 +199,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .pets{
 	height: 1058px;
+	position: relative;
 }
 .pets-in-zoo{
 	padding-top: 100px;
@@ -247,14 +250,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 .prev{
 	position: absolute;
-	top: 2193px;
+	top: 510px;
 	border-radius: 50%;
-	left: 220px;
+	left: 16.6%;
 }
 .next{
 	position: absolute;
-	top: 2193px;
-	right: 220px;
+	top: 510px;
+	right:  16.6%;
 	border-radius: 50%;
 }
 .button-pet-box{
