@@ -136,18 +136,19 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 47px;
 	color: #000000;
 }
+
 .how-it-background{
 	position: absolute;
 	top: 876px;
 	display: block;
 	z-index: -1;
-	padding-left: 267px;
-}
+	margin-left: 12.3%; 
+} 
 .how-it-cards{
 	display: grid;
 	justify-content: center;
-	margin-left: 275px;
-	width: 1370px;
+	margin-left: 12.3%; 
+	width: 1450px;
 	height: 450px;
 	grid-template-columns: repeat(5, 1fr);
 	padding-top: 80px;
