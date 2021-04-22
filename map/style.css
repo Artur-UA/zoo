@@ -80,7 +80,7 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
 	flex-wrap: wrap;
 	padding-top: 12px;
-    padding-left: 380px;
+    padding-left: 19.6%;
 	position: fixed;
 }
 .header__logo__img{
