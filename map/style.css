@@ -25,11 +25,10 @@ html,body{
 	font-size: 14px;
     font-style: normal;
 	font-weight: normal;
-    font-family: 'Open Sans';
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	font-family: Roboto;
+	font-family: 'Roboto';
 }
 img {
 	max-width: 100%;
@@ -60,7 +59,22 @@ ul li {
 h1,h2,h3,h4,h5,h6 {
     font-size:inherit;font-weight: 400;
 }
-
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		 url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('../fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''),
+		 url('../fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('../fonts/roboto-v27-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 .header{
 	max-width: 1920px;
     display: flex;
@@ -194,7 +208,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer__logo__img{
 	padding-right: 100px;
-    z-index: 2;
 }
 .footer-button{
 	padding: 15px 28px;
@@ -213,9 +226,10 @@ h1,h2,h3,h4,h5,h6 {
 .footer-column-1{
 	padding-right: 121px;
 }
-/* .footer-column-2{
-} */
-/*.footer-list{
+/*.footer-column-2{
+	padding-bottom: 20px;
+}
+.footer-list{
 	
 } */
 .social-list{
@@ -226,7 +240,6 @@ h1,h2,h3,h4,h5,h6 {
 	color: #000000;
 	font-size: 18px;
 	line-height: 21px;
-    
 }
 .social-list-img{
 	padding-right: 10px;
@@ -257,10 +270,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer-bg{
 	position: absolute;
-	top: 720px;
+	top: 696px;
 	left: 0;
-	height: 100px;
+	height: 270px;
 	width: 100%;
 	background: url(../img/footer.svg) no-repeat;
-	/* z-index: 1; */
+	z-index: -1;
 }
