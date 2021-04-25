@@ -174,14 +174,15 @@ h1,h2,h3,h4,h5,h6 {
 	grid-row-gap: 20px;
 }
 .info_box{
-	height: 60px;
-	background-color: #A7E1FF;
+/* 	height: 60px;
+ */	background-color: #A7E1FF;
 	border: 1px solid black;
+	padding-left: 20px;
 	position: relative;
 }
-.info_box_text{
-	padding-left: 20px;
+.info_box_title{
 	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: uppercase;
@@ -194,4 +195,12 @@ h1,h2,h3,h4,h5,h6 {
 	width: 45px;
 	height: 45px;
 }
-
+.info_box_text{
+	width: 470px;
+	margin-top: -13px;
+	padding-bottom: 20px;
+	display: none;
+}
+.info_box_text:target{
+	display: block;
+}
