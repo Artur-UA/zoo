@@ -113,7 +113,8 @@ h1,h2,h3,h4,h5,h6 {
 	color: #000000;
 }
 .header__link__sign{
-	text-shadow: 1px 1px 3px  #70CB0E;
+	/* text-shadow: 1px 1px 3px  #70CB0E; */
+	text-shadow:#70CB0E 1px 1px 3px;
 }
 .panda{
 	background: url(./img/panda-first-section.png) no-repeat center;
@@ -332,8 +333,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .how-pay-4{
 	position: absolute;
-	top: 2670px;
-	left: 640px;
+    top: 2780px;
+    left: 690px;
+    width: 540.67px;
+    height: 405.09px;
 }
 .how-pay-text{
 	font-size: 16px;
