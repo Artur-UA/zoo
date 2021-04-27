@@ -150,3 +150,150 @@ h1,h2,h3,h4,h5,h6 {
     width: 275px;
     height: 155px;
 }
+.info{
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 60px;
+	background: #A7E1FF;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.info_text{
+	font-size: 16px;
+	line-height: 19px;	
+}
+.upp_case{
+	text-transform: uppercase;
+}
+.info_more{
+	margin-top: 20px;
+	
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+.info_box{
+/* 	height: 60px;
+ */	background-color: #A7E1FF;
+	border: 1px solid black;
+	padding-left: 20px;
+	position: relative;
+}
+.info_box_title{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+.info_box_button{
+	position: absolute;
+	top: 8px;
+	right: 20px;
+	background: url(../img/Arrow.png) no-repeat right;
+	width: 45px;
+	height: 45px;
+}
+.info_box_text{
+	width: 470px;
+	margin-top: -13px;
+	padding-bottom: 20px;
+	display: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	
+}
+.info_box_text:target{
+	display: block;
+}
+.footer{
+	margin-top: 100px;
+	height: 278px;
+	background: #DFF5B0;
+	position: relative;
+}
+.footer-wrapper{
+	width: 1160px;
+	margin: 0 auto;
+}
+.first-level{
+	padding-top: 80px;
+	display: flex;
+	align-items: center;
+}
+.footer__logo__img{
+	padding-right: 100px;
+}
+.footer-button{
+	padding: 15px 28px;
+	background: #70CB0E;
+	border-radius: 30px;
+}
+.footer-nav{
+	padding-left: 162px;
+	/* display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 121px;
+	grid-template-rows: 15px; */
+	display: flex;
+
+}
+.footer-column-1{
+	padding-right: 121px;
+}
+/*.footer-column-2{
+	padding-bottom: 20px;
+}
+.footer-list{
+	
+} */
+.social-list{
+	display: flex;
+	padding-left: 123px;
+}
+.footer-list-id{
+	color: #000000;
+	font-size: 18px;
+	line-height: 21px;
+}
+.social-list-img{
+	padding-right: 10px;
+}
+.second-level{
+	padding-top: 70px;
+	display: flex;
+	padding-bottom: 20px;
+}
+.footer__rss__img{
+	padding-right: 57px;
+}
+.footer__yem__img{
+	padding-right: 77px;
+}
+.footer-text {
+	padding-top: 27px;
+	padding-right: 213px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.designer{
+	padding-top: 27px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.footer-bg{
+	position: absolute;
+	top: -85px;
+	left: 0;
+	height: 270px;
+	width: 100%;
+	background: url(../../img/footer.svg) no-repeat;
+	z-index: -1;
+}
