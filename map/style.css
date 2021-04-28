@@ -107,19 +107,34 @@ h1,h2,h3,h4,h5,h6 {
 
 .map{
     background-color: #A7E1FF;
-    height: 795px;
+    position: relative;
     z-index: -1;
+	height: 945px;
+	padding-top: 30px;
+	padding-bottom: 100px;
 }
 .map-img{
-    padding-top: 120px;
-    display: block;
+/*     padding-top: 100px;
+   	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+     width: 50%; 
+	/*margin-top: 100px; */
+	/* height: 78,8%;
+	width: 60,4%; 
+	height: 745px;
+	width: 1160px; */
+	
+	position: absolute;
+	left: 19.79%;
+	right: 19.79%;
+	top: 10.58%;
+	bottom: 10.58%;
+	
+	
 }
-
 /* .animal{
-
+	background: url(../img/map.svg) no-repeat center;
 } */
 .animals{
 	display: flex;	
@@ -127,10 +142,11 @@ h1,h2,h3,h4,h5,h6 {
 } 
 .eagle{
 	position: absolute;
-	top: 430px;
-	left: 480px;
+	top: 52.5%;
+	left: 20.8%; 
 }
 .eagle-p{
+	padding-right: 8px;
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
@@ -140,8 +156,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .alligator{
 	position: absolute;
-	top: 430px;
-	left: 730px;
+	top: 53.3%;
+	left: 35.6%;
 } 
 .alligator-p{
 	width: 102px;
@@ -161,16 +177,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 .gorilla{
 	position: absolute;
-	top: 530px;
-	left: 1020px;
+	top: 64%;
+	left: 53.9%;
 }
 .gorilla-p{
 	padding-left: 8px;
 }
 .panda{
 	position: absolute;
-	top: 440px;
-	left: 1250px;
+	top: 53.9%;
+	left: 67.8%;
 }
 .panda-p{
 	width: 53px;
@@ -178,20 +194,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 .counrty-3{
 	position: absolute;
-	top: 440px;
-	left: 1180px;
+	top: 53%;
+	left: 63.2%;
 }
 .counrty-1{
 	position: absolute;
-	top: 555px;
-	left: 902px;
+	top: 67%;
+	left: 46.7%;
 	width: 61px;
 	text-align: center;
 }
 .counrty-2{
 	position: absolute;
-	top: 435px;
-	left: 640px;
+	top: 52%;
+	left: 30.2%;
 }
 
 .footer{
@@ -271,10 +287,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer-bg{
 	position: absolute;
-	top: 696px;
+	top: 950px;
 	left: 0;
 	height: 270px;
 	width: 100%;
 	background: url(../img/footer.svg) no-repeat;
 	z-index: -1;
+}
+
+@media (max-width: 1200px){
+	.header{
+		padding-left: 20px;
+	}
 }
