@@ -251,7 +251,7 @@ h1,h2,h3,h4,h5,h6 {
 	grid-column-gap: 20px;
 	grid-row-gap: 30px;
 	align-items: center;
-  justify-items: center;
+  	justify-items: center;
 }
 .pet-card {
 	width: 233px;
@@ -325,6 +325,7 @@ h1,h2,h3,h4,h5,h6 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 90px;
+	text-align: center;
 	
 }
 .how-pay-img{
@@ -623,5 +624,50 @@ h1,h2,h3,h4,h5,h6 {
 	.paragraph{
 		width: 536px;
 		padding-bottom: 100.6px;
+	}
+	.pets{
+		width: 93.9%;
+		height: 1152px;
+		margin: left 20px;
+		overflow:hidden;
+	}
+	.pet-card {
+		width: 187px;
+		height: 300px;
+	}
+	.prev{
+		top: 77.1%;
+		left: 38.4%;
+	}
+	.next{
+		top: 77.1%;
+		right: 38.4%;
+	}
+	.choose-pet{
+		margin-top: 144px;
+		margin-bottom: 100px;
+	}
+	.pay{
+		height: 930px;
+		position: relative;
+	}
+ 
+	.how-pay{
+		padding-top: 93px;
+		width: 85.3%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 46px;
+	} 
+	.step-3{
+		position: absolute;
+		top: 56.6%;
+		left: 29.3%;
+	}
+	.how-pay-text{
+		width: 192px;
+		margin-left: 30px;
+	}
+	.how-pay-text :last-child{
+		margin-left: 0;
 	}
 }
