@@ -670,4 +670,87 @@ h1,h2,h3,h4,h5,h6 {
 	.how-pay-text :last-child{
 		margin-left: 0;
 	}
+	.testimonials{
+		height: 950px;
+		overflow:hidden;
+	}
+	.testimonials-cards{
+		width: 601px;
+		grid-column-gap: 20px;
+	}
+	.test-card{
+		width: 187px;
+		height: 429px;
+	}
+	.test-prev{
+		top: 72.1%;
+		left: 38.4%;
+	}
+	.test-next{
+		top: 72.1%;
+		right: 38.4%;
+	}
+	.feedback{
+		margin-top: 144px;
+	}
+	.footer{
+		height: 359px;
+		position: relative;
+	}
+	.footer-wrapper{
+		width: 600px;
+	}
+	.footer-button{
+		position:absolute;
+		top: 64.5%;
+		right: 3.125%;
+
+	}
+	.footer__logo__img{
+		padding-right: 57px;
+	}
+	.footer-nav{
+		padding-left: 0;
+	}
+	.footer-column-1{
+		padding-right: 55px;
+	}
+	.social-list{
+		padding-left: 65px;
+	}
+	.footer-list-id{
+		white-space: nowrap;
+	}
+	.second-level{
+		margin-top: 15px;
+	}
+	.footer-list-id{
+		padding-bottom: 20px;
+	}
+	.footer-column-1{
+		height: 51px;
+	}
+	.footer-bg{
+		top: -78px;
+    	left: -100px;
+	}
+	.footer__rss__img{
+		height: 50px;
+	}
+	.footer__yem__img{
+		height: 50px;
+	}
+	.footer-text{
+		
+	}
+	.designer{
+		
+		text-align: center;	
+	}
+
+
+
+	.how-pay-4{
+		display: none;
+	}
 }
